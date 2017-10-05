@@ -70,18 +70,18 @@ tr.jb-row-title {
 
 .jb-container.cont-1{
   background: #cc0000; /* Old browsers */
-  background: -moz-linear-gradient(45deg, #cc0000 0%, #820000 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #cc0000 0%,#820000 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #cc0000 0%,#820000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#820000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: -moz-linear-gradient(45deg, #7f7d25 0%,#afb11d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #7f7d25 0%,#afb11d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #7f7d25 0%,#afb11d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f7d25', endColorstr='afb11d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .jb-container.cont-2{
   background: #004156; /* Old browsers */
-  background: -moz-linear-gradient(45deg, #004156 0%, #007a87 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #004156 0%,#007a87 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #004156 0%,#007a87 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004156', endColorstr='#007a87',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: -moz-linear-gradient(45deg, #00564a 0%,#00875b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #00564a 0%,#00875b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #00564a 0%,#00875b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00564a', endColorstr='#00875b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .jb-container.cont-3{
