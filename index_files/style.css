@@ -1,0 +1,236 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Overpass","Open Sans",Helvetica,sans-serif;
+    color: #424242;
+    font-weight: 200;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-style: normal;
+  color: #222;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+p { font-size: 15px; }
+
+table.jb-table {
+  height:100%;
+  width:100%;
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.jb-table  {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+.jb-table td{
+  font-size:14px;
+  padding:10px 5px;
+  overflow:hidden;
+  word-break:normal;
+}
+
+.jb-table th{
+  font-size:14px;
+  font-weight:normal;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+tr.jb-row-1 {
+  height: 83px;
+}
+
+tr.jb-row-2 {
+  height: 83px;
+}
+
+tr.jb-row-3 {}
+
+.jb-table .jb-container { vertical-align:top }
+
+.jb-container.cont-1, .jb-container.cont-2, .jb-container.cont-4, .jb-container.cont-5 {
+  width: 50%;
+}
+
+.jb-container.cont-1{
+  border-right: 2px solid #fff;
+  background: #cc0000; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #cc0000 0%, #820000 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #cc0000 0%,#820000 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #cc0000 0%,#820000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#820000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jb-container.cont-2{
+  background: #004156; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #004156 0%, #007a87 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #004156 0%,#007a87 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #004156 0%,#007a87 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004156', endColorstr='#007a87',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jb-container.cont-3 h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.jb-container.cont-4{
+  border-right: 2px solid #fff;
+  background: #cc0000; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #cc0000 0%, #820000 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #cc0000 0%,#820000 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #cc0000 0%,#820000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#820000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jb-container.cont-4:after {
+    content: "or";
+    color: #fff;
+    background-color: #424242;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3px 7px 5px 8px;
+    border-radius: 36px;
+    position: fixed;
+    top: 45%;
+    left: 48.8%;
+}
+
+.jb-container.cont-4 .jb-content {
+  float: right;
+  margin-right: 10%;
+}
+
+.jb-container.cont-5{
+  background: #004156; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #004156 0%, #007a87 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #004156 0%,#007a87 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #004156 0%,#007a87 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004156', endColorstr='#007a87',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jb-container.cont-5 .jb-content {
+  float: left;
+  margin-left: 10%;
+}
+
+.jb-container .jb-content {
+  color: #FFF;
+  max-width: 49%;
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+.jb-content .jb-content-title {
+  font-size: 1.3em;
+}
+
+.jb-content .jb-content-p {
+  min-height: 12em;
+}
+
+.jb-container a.button {
+  background-color: #fff;
+  padding: 3px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+}
+.jb-container a.button:hover { background-color: #f0f0f0; }
+
+.jb-container a.button.red {
+  color: #cc0000;
+}
+
+.jb-container a.button.blue {
+  color: #007a87;
+}
+
+@media (min-width: 1239px) and (max-width: 1480px) {
+  .jb-container.cont-4:after { left: 48.6%; }
+}
+
+@media screen and (max-width: 1238px) {
+  .jb-container .jb-content { max-width: 72%; }
+  .jb-container.cont-4:after { left: 48.2%; }
+}
+
+@media (max-width: 1069px) and (min-width: 766px){
+  .jb-container.cont-4:after { left: 47.9%; }
+}
+
+@media screen and (max-width: 767px) {
+  .jb-table {width: auto !important;}
+  .jb-table col {width: auto !important;}
+  .tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}
+
+
+  tr.jb-row-1 {
+    display: none;
+  }
+  .jb-table .jb-container {
+    display: block;
+    width: 100% !important;
+    display: table-row;
+  }
+
+  .jb-container.cont-1, .jb-container.cont-4{
+    border-right: none;
+  }
+  .jb-container.cont-4{ border-bottom: 5px solid #fff; }
+  .jb-container.cont-4:after { display: none; }
+  .jb-container.cont-5:before { 
+    content: "or";
+    color: #fff;
+    background-color: #424242;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3px 7px 5px 8px;
+    border-radius: 36px;
+    position: absolute;
+    top: 54%;
+    left: 45%;
+  }
+
+  .jb-container.cont-3 {
+    margin: 0 auto;
+    display: block;
+  }
+  .jb-container.cont-3 h1{
+    font-size: 1.4em;
+    margin: 5% auto;
+    max-width: 70%;
+  }
+  .jb-container.cont-4 .jb-content, .jb-container.cont-5 .jb-content {
+    float: none;
+    margin: 12% auto;
+  }
+}
+
+@media (max-width: 506px) and (min-width: 410px){
+  .jb-container.cont-5:before {top: 56%; }
+}
+
+@media screen and (max-width: 400px) {
+  .jb-container .jb-content { max-width: 80%; }
+  .jb-container.cont-5:before {top: 55%;}
+}

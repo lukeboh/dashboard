@@ -1,0 +1,19 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  var versaTag = {};
+versaTag.id = "7740";
+versaTag.sync = 0;
+versaTag.dispType = "js";
+versaTag.ptcl = "HTTPS";
+versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
+versaTag.activityParams = {"OrderID":"","Value":"","productid":"","productinfo":"","Quantity":""};
+versaTag.retargetParams = {};
+versaTag.dynamicRetargetParams = {};
+versaTag.conditionalParams = {};
+
+var ebprotocol = window.location.protocol=="https:"?"https://secure-":"http://";
+var onetagscript = document.createElement('script');
+onetagscript.src = ebprotocol+"ds.serving-sys.com/SemiCachedScripts/ebOneTag.js";
+onetagscript.id = "ebOneTagUrlId";
+document.body.appendChild(onetagscript);
+window.versaTag = versaTag;
+});
