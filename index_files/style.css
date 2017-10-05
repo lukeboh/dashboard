@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4;
+  text-align: center;
 }
 
 p { font-size: 15px; }
@@ -54,7 +55,7 @@ tr.jb-row-1 {
   height: 83px;
 }
 
-tr.jb-row-2 {
+tr.jb-row-title {
   height: 83px;
 }
 
@@ -63,7 +64,7 @@ tr.jb-row-3 {}
 .jb-table .jb-container { vertical-align:top }
 
 .jb-container.cont-1, .jb-container.cont-2, .jb-container.cont-4, .jb-container.cont-5 {
-  width: 50%;
+  width: 25%;
 }
 
 .jb-container.cont-1{
