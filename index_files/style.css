@@ -130,14 +130,14 @@ tr.jb-row-title {
 
 .jb-container .jb-content {
     color: #FFF;
-    max-width: 49%;
     font-size: 1.2em;
 }
 
 .jb-content .jb-content-title {
     font-size: 1.3em;
     margin: auto;
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 
 .jb-content .jb-content-p {
