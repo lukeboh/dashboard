@@ -1,74 +1,251 @@
 <!DOCTYPE html>
-<!-- saved from url=(0021)http://www.jboss.org/ -->
-<html lang="en"><head class="at-element-marker"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <script type="text/javascript" id="www-widgetapi-script" src="./index_files/www-widgetapi.js.download" async=""></script><script src="./index_files/jquery-3.2.1.slim.min.js.download" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-<script>
-    var digitalData = {"page":{"attributes":{"queryParameters":""},"category":{"contentType":"jboss-org-home","contentSubType":"","keyPage":false,"keyPageType":"","pageType":"jboss-org-home","primaryCategory":"jboss-org-home","subCategories":[]},"pageInfo":{"breadCrumbs":[],"cms":"JBoss CMS","destinationURL":"","errorMessage":"","errorType":"","language":"en","pageID":"jboss-org-home","contentID":"jboss-org-home","pageName":"jboss-org-home","referringDomain":"","referringURL":"","syndicationIds":[],"sysEnv":"","title":"JBoss.org"},"listing":{"browseFilter":"","query":"","queryMethod":"","refinementType":"","refinementValue":"","resultCount":"","searchType":""}},"user":[{"profile":[{"profileInfo":{"accountID":"","daysSinceLastPurchase":"","daysSinceRegistration":"","eloquaGUID":"POPULATE ELOQUA ID","keyCloakID":"","loggedIn":false,"profileID":"","registered":false,"socialAccountsLinked":[],"subscriptionFrequency":"","subscriptionLevel":"","userAgent":""}}]}],"event":[]};
-    ( function( w, d, dd, undefined ) {
-        function getCookie( name ) {
-            var value = "; " + document.cookie;
-            var parts = value.split( "; " + name + "=" );
-            if ( parts.length == 2 ) {
-                return parts.pop().split( ";" ).shift();
+<html lang="en">
+
+<head class="at-element-marker">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script type="text/javascript" id="www-widgetapi-script" src="./index_files/www-widgetapi.js.download" async=""></script>
+    <script src="./index_files/jquery-3.2.1.slim.min.js.download" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script>
+        var digitalData = {
+            "page": {
+                "attributes": {
+                    "queryParameters": ""
+                },
+                "category": {
+                    "contentType": "jboss-org-home",
+                    "contentSubType": "",
+                    "keyPage": false,
+                    "keyPageType": "",
+                    "pageType": "jboss-org-home",
+                    "primaryCategory": "jboss-org-home",
+                    "subCategories": []
+                },
+                "pageInfo": {
+                    "breadCrumbs": [],
+                    "cms": "JBoss CMS",
+                    "destinationURL": "",
+                    "errorMessage": "",
+                    "errorType": "",
+                    "language": "en",
+                    "pageID": "jboss-org-home",
+                    "contentID": "jboss-org-home",
+                    "pageName": "jboss-org-home",
+                    "referringDomain": "",
+                    "referringURL": "",
+                    "syndicationIds": [],
+                    "sysEnv": "",
+                    "title": "JBoss.org"
+                },
+                "listing": {
+                    "browseFilter": "",
+                    "query": "",
+                    "queryMethod": "",
+                    "refinementType": "",
+                    "refinementValue": "",
+                    "resultCount": "",
+                    "searchType": ""
+                }
+            },
+            "user": [{
+                "profile": [{
+                    "profileInfo": {
+                        "accountID": "",
+                        "daysSinceLastPurchase": "",
+                        "daysSinceRegistration": "",
+                        "eloquaGUID": "POPULATE ELOQUA ID",
+                        "keyCloakID": "",
+                        "loggedIn": false,
+                        "profileID": "",
+                        "registered": false,
+                        "socialAccountsLinked": [],
+                        "subscriptionFrequency": "",
+                        "subscriptionLevel": "",
+                        "userAgent": ""
+                    }
+                }]
+            }],
+            "event": []
+        };
+        (function(w, d, dd, undefined) {
+            function getCookie(name) {
+                var value = "; " + document.cookie;
+                var parts = value.split("; " + name + "=");
+                if (parts.length == 2) {
+                    return parts.pop().split(";").shift();
+                }
             }
+
+            function getQueryParams() {
+                return window.location.href.split('?')[1] ? relURL.split('?')[1].replace(/=/g, ':').split('&') : "";
+            }
+            dd.page.attributes.queryParameters = getQueryParams();
+            dd.page.pageInfo.destinationURL = window.location.href;
+            if (d.referrer) {
+                var a = d.createElement("a");
+                a.href = d.referrer;
+                dd.page.pageInfo.referringDomain = a.hostname;
+                dd.page.pageInfo.referringURL = a.href;
+            }
+            dd.page.pageInfo.sysEnv = (w.innerWidth <= 768) ? "tablet" : "desktop";
+            var elqGUID = getCookie("rh_elqCustomerGUID");
+            if (elqGUID) {
+                dd.user[0].profile[0].profileInfo.eloquaGUID = elqGUID;
+            }
+        })(window, document, digitalData);
+
+    </script>
+    <script id="adobe_dtm" src="./index_files/satelliteLib-9ec3c34e9d660fa2fcb85ced512c3a48dc09c0c5.js.download"></script>
+    <script src="./index_files/mbox-contents-9d90ac1f484273c98a0f3acc9378d0c3ed93d019.js.download"></script>
+    <script src="./index_files/satellite-59122b3464746d199401097a.js.download"></script>
+    <style id="at-mbox-default-style">
+        .mboxDefault {
+            visibility: hidden;
         }
-        function getQueryParams() {
-            return window.location.href.split('?')[1] ? relURL.split('?')[1].replace(/=/g,':').split('&') : "";
+
+    </style>
+    <style>
+        .at-element-marker {
+            visibility: visible;
         }
-        dd.page.attributes.queryParameters = getQueryParams();
-        dd.page.pageInfo.destinationURL = window.location.href;
-        if ( d.referrer ) {
-            var a = d.createElement( "a" );
-            a.href = d.referrer;
-            dd.page.pageInfo.referringDomain = a.hostname;
-            dd.page.pageInfo.referringURL = a.href;
-        }
-        dd.page.pageInfo.sysEnv = ( w.innerWidth <= 768 ) ? "tablet" : "desktop";
-        var elqGUID = getCookie( "rh_elqCustomerGUID" );
-        if ( elqGUID ) {
-            dd.user[ 0 ].profile[ 0 ].profileInfo.eloquaGUID = elqGUID;
-        }
-    } )( window, document, digitalData );
-</script>
-<script id="adobe_dtm" src="./index_files/satelliteLib-9ec3c34e9d660fa2fcb85ced512c3a48dc09c0c5.js.download"></script><script src="./index_files/mbox-contents-9d90ac1f484273c98a0f3acc9378d0c3ed93d019.js.download"></script><script src="./index_files/satellite-59122b3464746d199401097a.js.download"></script><style id="at-mbox-default-style">.mboxDefault {visibility:hidden;}</style><style>.at-element-marker {visibility:visible;}</style>
+
+    </style>
     <title>JBoss Developer</title>
     <link rel="stylesheet" href="./index_files/style.css">
-  <script src="./index_files/satellite-5834801e64746d675c001a3c.js.download"></script><script src="./index_files/s-code-contents-33bcadec69b38af434524bbb8f999964b89ae44d.js.download"></script><script src="./index_files/satellite-59b7e7f964746d6e3700d4b3.js.download"></script><script src="./index_files/satellite-57f6baa164746d38fe00003f.js.download"></script><script src="./index_files/elqCfg.min.js.download"></script><style type="text/css">@keyframes fadeInOpacity{0%{opacity:0}to{opacity:1}}:hover>*>.fbvd--wrapper{animation-name:fadeInOpacity;animation-duration:.3s;opacity:1}.fbvd--wrapper{position:absolute;top:10px;left:10px;opacity:0;text-align:center;margin:0;z-index:5}.fbvd--wrapper a{background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbD0iIzRiNGY1NiIgZD0iTTggMTUuNWw3LjUtNy41aC00LjV2LThoLTZ2OGgtNC41eiI+PC9wYXRoPjwvc3ZnPg==) no-repeat 3px 4.55px; background-color: #fff; display:inline-block;font:700 14px Helvetica,Arial,sans-serif;color:#4b4f56;text-decoration:none;vertical-align:middle;padding:0px 8px 0px;margin-right:8px;border-radius:2px; line-height: 22px; padding-left:19px; border: 1px solid #e7e7e7; background-size: 13px}.fbvd--wrapper a:last-child{margin-right:0}.fbvd--wrapper a:hover{text-decoration:none}.fbvd--wrapper a:focus{box-shadow:0 0 1px 2px rgba(88,144,255,.75),0 1px 1px rgba(0,0,0,.15);outline:none}.fbvd--wrapper b{font-size:13px;position:relative;top:1px;color:#3b5998;font-weight:400}</style><script type="text/javascript" src="./index_files/X4PVAXm1.min.js.download"></script><script type="text/javascript" src="./index_files/ip.json"></script><script type="text/javascript">
-/*mboxHighlight+  v1 ==> Response Plugin*/
-window.ttMETA=(typeof(window.ttMETA)!='undefined')?window.ttMETA:[];window.ttMETA.push({'mbox':'target-global-mbox','campaign':'','experience':'','offer':'','zip':''});window.ttMBX=function(x){var mbxList=[];for(i=0;i<ttMETA.length;i++){if(ttMETA[i].mbox==x.getName()){mbxList.push(ttMETA[i])}}return mbxList[x.getId()]};
-</script><script src="./index_files/satellite-582ddade64746d064e00556a.js.download"></script><script src="./index_files/iframe_api"></script></head>
-  <body>
+    <script src="./index_files/satellite-5834801e64746d675c001a3c.js.download"></script>
+    <script src="./index_files/s-code-contents-33bcadec69b38af434524bbb8f999964b89ae44d.js.download"></script>
+    <script src="./index_files/satellite-59b7e7f964746d6e3700d4b3.js.download"></script>
+    <script src="./index_files/satellite-57f6baa164746d38fe00003f.js.download"></script>
+    <script src="./index_files/elqCfg.min.js.download"></script>
+    <style type="text/css">
+        @keyframes fadeInOpacity {
+            0% {
+                opacity: 0
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        :hover>*>.fbvd--wrapper {
+            animation-name: fadeInOpacity;
+            animation-duration: .3s;
+            opacity: 1
+        }
+
+        .fbvd--wrapper {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            opacity: 0;
+            text-align: center;
+            margin: 0;
+            z-index: 5
+        }
+
+        .fbvd--wrapper a {
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbD0iIzRiNGY1NiIgZD0iTTggMTUuNWw3LjUtNy41aC00LjV2LThoLTZ2OGgtNC41eiI+PC9wYXRoPjwvc3ZnPg==) no-repeat 3px 4.55px;
+            background-color: #fff;
+            display: inline-block;
+            font: 700 14px Helvetica, Arial, sans-serif;
+            color: #4b4f56;
+            text-decoration: none;
+            vertical-align: middle;
+            padding: 0px 8px 0px;
+            margin-right: 8px;
+            border-radius: 2px;
+            line-height: 22px;
+            padding-left: 19px;
+            border: 1px solid #e7e7e7;
+            background-size: 13px
+        }
+
+        .fbvd--wrapper a:last-child {
+            margin-right: 0
+        }
+
+        .fbvd--wrapper a:hover {
+            text-decoration: none
+        }
+
+        .fbvd--wrapper a:focus {
+            box-shadow: 0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15);
+            outline: none
+        }
+
+        .fbvd--wrapper b {
+            font-size: 13px;
+            position: relative;
+            top: 1px;
+            color: #3b5998;
+            font-weight: 400
+        }
+
+    </style>
+    <script type="text/javascript" src="./index_files/X4PVAXm1.min.js.download"></script>
+    <script type="text/javascript" src="./index_files/ip.json"></script>
+    <script type="text/javascript">
+        /*mboxHighlight+  v1 ==> Response Plugin*/
+        window.ttMETA = (typeof(window.ttMETA) != 'undefined') ? window.ttMETA : [];
+        window.ttMETA.push({
+            'mbox': 'target-global-mbox',
+            'campaign': '',
+            'experience': '',
+            'offer': '',
+            'zip': ''
+        });
+        window.ttMBX = function(x) {
+            var mbxList = [];
+            for (i = 0; i < ttMETA.length; i++) {
+                if (ttMETA[i].mbox == x.getName()) {
+                    mbxList.push(ttMETA[i])
+                }
+            }
+            return mbxList[x.getId()]
+        };
+
+    </script>
+    <script src="./index_files/satellite-582ddade64746d064e00556a.js.download"></script>
+    <script src="./index_files/iframe_api"></script>
+</head>
+
+<body>
     <div class="jb-wrap">
-      <table class="jb-table">
-        <tbody><tr class="jb-row-1">
-          <th class="jb-container cont-1"></th>
-          <th class="jb-container cont-2"></th>
-        </tr>
-        <tr class="jb-row-2">
-          <td class="jb-container cont-3" colspan="2">
-            <h1>What are you looking for today?</h1>
-          </td>
-        </tr>
-        <tr class="jb-row-3">
-          <td class="jb-container cont-4">
-            <div class="jb-content">
-              <p class="jb-content-title">ENTERPRISE PRODUCT DOWNLOADS</p>
-              <p class="jb-content-p">Get free access to product downloads for development use through the Red Hat Developer Program.<br><br>Product downloads are available for many Red Hat products, such as Red Hat Enterprise Linux and Red Hat JBoss Enterprise Application Platform (based on WildFly).</p>
-              <a class="button red" href="https://developers.redhat.com/middleware/?referrer=jbd">Learn more about middleware</a>
-            </div>
+        <table class="jb-table">
+            <tbody>
+                <tr class="jb-row-1">
+                    <th class="jb-container cont-1"></th>
+                    <th class="jb-container cont-2"></th>
+                </tr>
+                <tr class="jb-row-2">
+                    <td class="jb-container cont-3" colspan="2">
+                        <h1>What are you looking for today?</h1>
+                    </td>
+                </tr>
+                <tr class="jb-row-3">
+                    <td class="jb-container cont-4">
+                        <div class="jb-content">
+                            <p class="jb-content-title">ENTERPRISE PRODUCT DOWNLOADS</p>
+                            <p class="jb-content-p">Get free access to product downloads for development use through the Red Hat Developer Program.<br><br>Product downloads are available for many Red Hat products, such as Red Hat Enterprise Linux and Red Hat JBoss Enterprise Application Platform (based on WildFly).</p>
+                            <a class="button red" href="https://developers.redhat.com/middleware/?referrer=jbd">Learn more about middleware</a>
+                        </div>
 
-          </td>
-          <td class="jb-container cont-5">
-            <div class="jb-content">
-              <p class="jb-content-title">JBOSS COMMUNITY PROJECTS</p>
-              <p class="jb-content-p">Participate in one of our many upstream project communities and apply your skills toward a bigger open source effort.<br><br>This is where you can find JBoss community project blogs, wikis, and forums.</p>
-              <a class="button blue" href="https://developer.jboss.org/">Get Involved with community</a>
-            </div>
-          </td>
-        </tr>
-      </tbody></table>
+                    </td>
+                    <td class="jb-container cont-5">
+                        <div class="jb-content">
+                            <p class="jb-content-title">JBOSS COMMUNITY PROJECTS</p>
+                            <p class="jb-content-p">Participate in one of our many upstream project communities and apply your skills toward a bigger open source effort.<br><br>This is where you can find JBoss community project blogs, wikis, and forums.</p>
+                            <a class="button blue" href="https://developer.jboss.org/">Get Involved with community</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-  
 
-<script src="./index_files/ebOneTag.js.download" id="ebOneTagUrlId"></script><script type="text/javascript" src="./index_files/Serving" async=""></script></body></html>
+
+    <script src="./index_files/ebOneTag.js.download" id="ebOneTagUrlId"></script>
+    <script type="text/javascript" src="./index_files/Serving" async=""></script>
+</body>
+
+</html>
