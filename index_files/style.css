@@ -48,7 +48,6 @@ table.jb-table {
 .jb-table td {
     font-size: 14px;
     padding: 10px 5px;
-    overflow: hidden;
     word-break: normal;
 }
 
@@ -140,8 +139,25 @@ tr.jb-row-title {
     text-align: center;
 }
 
-.jb-content .jb-content-p {
-    min-height: 12em;
+.info-diff {
+    position: relative;
+    color: #fff;
+    background-color: #424242;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3px 7px 5px 8px;
+    border-radius: 25px;
+    left: -50px;
+    max-width: 70px;
+}
+
+.a-menos {
+    color: limegreen;
+}
+
+.a-mais {
+    color: orangered;
 }
 
 .jb-container a.button {
@@ -151,16 +167,15 @@ tr.jb-row-title {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 15px;
+    color: #007a87;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3px 7px 5px 8px;
+    border-radius: 36px;
+
 }
 
 .jb-container a.button:hover {
     background-color: #f0f0f0;
-}
-
-.jb-container a.button.red {
-    color: #cc0000;
-}
-
-.jb-container a.button.blue {
-    color: #007a87;
 }
