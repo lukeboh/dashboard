@@ -20,8 +20,8 @@ h6 {
     font-style: normal;
     color: #222;
     text-rendering: optimizeLegibility;
-    margin-top: 0.2rem;
-    margin-bottom: 0.5rem;
+    margin-top: 5px;
+    margin-bottom: 0;
     line-height: 1.4;
     text-align: center;
 }
@@ -45,12 +45,6 @@ table.jb-table {
     border-spacing: 0;
 }
 
-.jb-table td {
-    font-size: 14px;
-    padding: 10px 5px;
-    word-break: normal;
-}
-
 .jb-table th {
     font-size: 14px;
     font-weight: normal;
@@ -59,7 +53,7 @@ table.jb-table {
 }
 
 tr.jb-row-title {
-    height: 83px;
+    height: 70px;
 }
 
 .jb-container.cont-title h1 {
@@ -78,11 +72,11 @@ tr.jb-row-title {
 .jb-container.cont-1 {
     background: #cc0000;
     /* Old browsers */
-    background: -moz-linear-gradient(45deg, #7f7d25 0%, #afb11d 100%);
+    background: -moz-linear-gradient(45deg, #a2a038 0%, #c5c726 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #7f7d25 0%, #afb11d 100%);
+    background: -webkit-linear-gradient(45deg, #a2a038 0%, #c5c726 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #7f7d25 0%, #afb11d 100%);
+    background: linear-gradient(45deg, #a2a038 0%, #c5c726 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f7d25', endColorstr='afb11d', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
@@ -145,15 +139,18 @@ tr.jb-row-title {
     background-color: #424242;
     border: 2px solid #fff;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3em;
     padding: 3px 7px 5px 8px;
     border-radius: 25px;
-    left: -50px;
-    max-width: 70px;
+    left: -180px;
+    width: 360px;
+    margin-top: 110px;
+    margin-bottom: 50px;
 }
 
 .a-menos {
     color: limegreen;
+    min-width: 80px;
 }
 
 .a-mais {
@@ -163,17 +160,10 @@ tr.jb-row-title {
 .jb-container a.button {
     background-color: #fff;
     padding: 3px 10px;
+    margin-bottom: 10px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 15px;
     color: #007a87;
-    border: 2px solid #fff;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 3px 7px 5px 8px;
-    border-radius: 36px;
-
+    border-radius: 8px;
 }
 
 .jb-container a.button:hover {
